@@ -1,0 +1,31 @@
+# Udacity Lesson 5
+
+## Physics and Audio in Unity3d
+
+Colliders:
+	1. Box
+	2. Capsule
+	3. Mesh (Custom Shape)
+	4. Sphere
+
+If you create a box, capsule, or sphere 3d object, they already have attached colliders.
+
+Rigid Body: 
+	*Component that enables a game object to interface with unity  physics simulation
+	*Properties include mass, drag, and gravity.
+
+Rays (https://docs.unity3d.com/ScriptReference/Physics.Raycast.html):
+	1. Requires position it's located at
+	2. Require direction it's traveling at
+	* Must add colider to all objects you want it to detect.
+
+FixedUpdate() Method is similar to Update() Method, but it is the proper method to use when working with Rigid Body and Physics.
+
+Animation Events:
+(https://docs.unity3d.com/ScriptReference/AnimationEvent.html)
+
+Audio:
+*Add audio source component.
+*Spacial blend is important for VR (2D = 0) (3D=1)
+
+	
